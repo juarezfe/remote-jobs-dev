@@ -1,4 +1,4 @@
-export default function Footer() {
+export default function Footer({ totalJobsCount }) {
   return (
     <footer className="footer">
       <small>
@@ -12,7 +12,7 @@ export default function Footer() {
       </small>
 
       <p>
-        <span className="u-bold">109573</span> total jobs available
+        <span className="u-bold">{totalJobsCount}</span> total jobs available
       </p>
     </footer>
   );
