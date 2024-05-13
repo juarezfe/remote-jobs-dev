@@ -7,7 +7,7 @@ export default function Footer() {
           <a href="https://bytegrad.com" target="_blank">
             ByteGrad.com
           </a>
-          . Intended for learning or your portfolio.
+          . Intended for learning or my portfolio.
         </p>
       </small>
 
